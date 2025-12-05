@@ -1,4 +1,4 @@
-# Ethan's Neovim Config
+# Hue's Neovim Config
 
 A batteries-included Neovim configuration built on [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim).
 

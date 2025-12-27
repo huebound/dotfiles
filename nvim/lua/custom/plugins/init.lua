@@ -274,7 +274,7 @@ return {
           enabled = true,
         },
         signature = {
-          enabled = true,
+          enabled = false, -- blink.cmp handles this
         },
         -- Disable the overrides that were causing issues
         override = {},

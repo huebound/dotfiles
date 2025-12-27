@@ -134,6 +134,8 @@ alias reload='source ~/.zshrc'
 alias p='cd ~/Documents/Coding/Hue/Pulse'
 alias pb='cd ~/Documents/Coding/Hue/Pulse/backend'
 alias pf='cd ~/Documents/Coding/Hue/Pulse/frontend'
+alias c='claude'
+alias x='codex'
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"

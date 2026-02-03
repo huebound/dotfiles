@@ -200,3 +200,8 @@ export PULSE_DB_URL=$(grep "^POSTGRES_URL=" ~/Documents/Coding/Hue/Pulse/backend
 alias pulse-db='psql "$PULSE_DB_URL"'
 alias pulse-query='psql "$PULSE_DB_URL" -c'
 
+# Ghostty shell integration
+if [[ -n "$GHOSTTY_RESOURCES_DIR" ]]; then
+    source "$GHOSTTY_RESOURCES_DIR/shell-integration/zsh/ghostty-integration"
+fi
+

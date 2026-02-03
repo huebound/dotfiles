@@ -1,0 +1,33 @@
+font-family = BlexMono Nerd Font
+font-family-bold = BlexMono Nerd Font SemiBold
+font-size = 14
+theme = dark:Monokai Pro Octagon,light:Monokai Pro Light
+macos-titlebar-style = transparent
+window-padding-x = 10
+window-padding-y = 10
+copy-on-select = true
+scrollback-limit = 10000000
+font-thicken = true
+font-thicken-strength = 100
+macos-option-as-alt = true
+confirm-close-surface = false
+background-opacity = 0.95
+background-blur-radius = 20
+# Match iTerm2's cyan bold color
+bold-color = #66D9EF
+mouse-scroll-multiplier = 3
+
+# Quick terminal (Ctrl+` to summon from anywhere)
+keybind = global:ctrl+grave_accent=toggle_quick_terminal
+quick-terminal-position = top
+quick-terminal-animation-duration = 0.1
+
+# Shell integration
+shell-integration = detect
+shell-integration-features = cursor,sudo,title,ssh-env,ssh-terminfo
+
+# Visual polish
+window-inherit-working-directory = true
+window-save-state = always
+mouse-hide-while-typing = true
+window-padding-balance = true

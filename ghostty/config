@@ -19,6 +19,7 @@ mouse-scroll-multiplier = 3
 
 # Quick terminal (Ctrl+` to summon from anywhere)
 keybind = global:ctrl+grave_accent=toggle_quick_terminal
+keybind = super+shift+r=prompt_surface_title
 quick-terminal-position = top
 quick-terminal-animation-duration = 0.1
 
